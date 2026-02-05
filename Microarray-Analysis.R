@@ -23,10 +23,23 @@ boxplot(data)
 normalizeddata <- rma(data)
 
 # Generate a boxplot to visualize normalized dataset
-boxplot (exprs(normalizedata))
+boxplot (exprs(normalizeddata))
 
 # Fold change analysis for comparing treatment vs control samples
 # Lets assume GSM4843.CEL and GSM4844.CEL samples to be Leukemia/Blood cancer and GSM4845.CEL and GSM4846.CEL to be Normal blood samples
+
+# Take means/average on each row 
+Newdata <- exprs(normalizeddata)
+Treatment <- Newdata[,c(1,2)]
+Control <- Newdata[,c(3,4)]
+
+# Apply the rowmeans function to calculate averages
+Treatmentaverage <- rowMeans(Treatment)
+Controlaverage <- rowMeans(Control)
+
+# Apply fold change by subtraction
+foldchange <- Treatmentaverage - Controlaverage
+
 
 
 
