@@ -14,7 +14,7 @@ Bioinformatics (topics including Introduction to genomics/proteomics/bioinforma
 [Semester class review:](https://youtu.be/Pju8ecWWRAw)
 [Phylogenetic Analysis:](https://youtu.be/IMIP4la-K84)
 https://github.com/spawar2/BTEC-620-Spring-2023/blob/main/Phylogenetic-Analysis.R
-[Link](https://youtu.be/UEsXMfE_7Rg)
+[Link](https://youtu.be/UEsXMfE_7Rg) Student Evaluations (2021-2026): https://www.claflin-computation.com/_files/ugd/81dd80_ae28e89ed22e41c39513d1764b5c9628.pdf
 [Github:](https://github.com/spawar2/BTEC-620-Spring-2023)
 Blast, Sequence alignments (Margaret Dayhoff, PAM, Blossom scoring matrices, global & local alignment): https://youtu.be/Lx1jkr3UKwA
 BIOL620-Spring-2023 (4 credit), (2 students) *Graduate Class (Masters & Ph.D. Level). https://campuspress.yale.edu/shrikantpawar/files/2024/05/Student-Evaluations-2021-2024-3df60a3eaf357f31.pdf
